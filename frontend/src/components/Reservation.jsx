@@ -28,8 +28,9 @@ const Reservation = () => {
         {
           headers: {
             "Content-Type": "application/json",
-          },
-          withCredentials: true,
+            withCredentials: true
+          }
+          
         }
       );
       setDate(e.target.value);
